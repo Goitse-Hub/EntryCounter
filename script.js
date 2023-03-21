@@ -11,6 +11,8 @@ let store = 0
 function save(){
    store = " " + counter
    entryElemtn.innerText += store + " - "
+   counter = 0
+   countElement.innerText = counter
 }
 
 
